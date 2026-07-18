@@ -1,0 +1,200 @@
+{
+    "metadados": {
+        "versao": "2.0 - ALINHADA COM MTE 2026",
+        "atualizado_em": "08/06/2026",
+        "total_capitulos": 5
+    },
+    "estrutura": [
+        {
+            "codigo": "CAP-001",
+            "titulo": "DISPOSIÇÕES GERAIS",
+            "descricao": "Define as partes, abrangência, categoria profissional e vigência",
+            "secoes": [
+                {
+                    "codigo": "SEC-001-01",
+                    "titulo": "Identificação das Partes",
+                    "clausulas": [
+                        {
+                            "codigo": "CLA-001-01-001",
+                            "nome": "Sindicato Profissional",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Qualificação completa da entidade representante dos trabalhadores"
+                        },
+                        {
+                            "codigo": "CLA-001-01-002",
+                            "nome": "Sindicato Patronal / Empresas",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Qualificação completa da entidade ou empresas acordantes"
+                        },
+                        {
+                            "codigo": "CLA-001-01-003",
+                            "nome": "Representação Legal",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Nome e cargo dos negociadores e signatários"
+                        }
+                    ]
+                },
+                {
+                    "codigo": "SEC-001-02",
+                    "titulo": "Abrangência e Vigência",
+                    "clausulas": [
+                        {
+                            "codigo": "CLA-001-02-001",
+                            "nome": "Âmbito Territorial",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Cidades e estados onde a CCT vale"
+                        },
+                        {
+                            "codigo": "CLA-001-02-002",
+                            "nome": "Âmbito Profissional / Categoria",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Quais cargos/funções são cobertos"
+                        },
+                        {
+                            "codigo": "CLA-001-02-003",
+                            "nome": "Prazo de Vigência",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Data de início e fim da norma (geralmente 2 anos)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo": "CAP-002",
+            "titulo": "RELAÇÕES SALARIAIS",
+            "descricao": "Tudo que envolve dinheiro, pagamento, reajustes e pisos",
+            "secoes": [
+                {
+                    "codigo": "SEC-002-01",
+                    "titulo": "Salários e Reajustes",
+                    "clausulas": [
+                        {
+                            "codigo": "CLA-002-01-001",
+                            "nome": "Piso Salarial Normativo",
+                            "tipo": "ECONÔMICA",
+                            "descricao": "Valor mínimo da categoria, por função ou geral"
+                        },
+                        {
+                            "codigo": "CLA-002-01-002",
+                            "nome": "Reajuste Salarial",
+                            "tipo": "ECONÔMICA",
+                            "descricao": "Percentual e data do aumento salarial"
+                        },
+                        {
+                            "codigo": "CLA-002-01-003",
+                            "nome": "Cálculo e Pagamento de Salários",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Forma, local e data de pagamento"
+                        },
+                        {
+                            "codigo": "CLA-002-01-004",
+                            "nome": "Adicionais Salariais",
+                            "tipo": "FACULTATIVA",
+                            "descricao": "Periculosidade, insalubridade, noturno, etc."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo": "CAP-003",
+            "titulo": "BENEFÍCIOS SOCIAIS",
+            "descricao": "Auxílios, vale-refeição, transporte, saúde, educação",
+            "secoes": [
+                {
+                    "codigo": "SEC-003-01",
+                    "titulo": "Auxílios e Ajuda de Custo",
+                    "clausulas": [
+                        {
+                            "codigo": "CLA-003-01-001",
+                            "nome": "Vale-Alimentação / Refeição",
+                            "tipo": "SOCIAL",
+                            "descricao": "Valor, forma e regras de concessão"
+                        },
+                        {
+                            "codigo": "CLA-003-01-002",
+                            "nome": "Auxílio Transporte",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Conforme lei e acréscimos da CCT"
+                        },
+                        {
+                            "codigo": "CLA-003-01-003",
+                            "nome": "Auxílio Creche / Filhos",
+                            "tipo": "SOCIAL",
+                            "descricao": "Valores e limites de idade"
+                        },
+                        {
+                            "codigo": "CLA-003-01-004",
+                            "nome": "Assistência Médica / Odontológica",
+                            "tipo": "SOCIAL",
+                            "descricao": "Cobertura e regras"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo": "CAP-004",
+            "titulo": "CONDIÇÕES DE TRABALHO",
+            "descricao": "Jornada, horário, férias, segurança, saúde",
+            "secoes": [
+                {
+                    "codigo": "SEC-004-01",
+                    "titulo": "Jornada e Horário",
+                    "clausulas": [
+                        {
+                            "codigo": "CLA-004-01-001",
+                            "nome": "Jornada de Trabalho",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Carga horária semanal e diária"
+                        },
+                        {
+                            "codigo": "CLA-004-01-002",
+                            "nome": "Horas Extras",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Percentuais de acréscimo e limites"
+                        },
+                        {
+                            "codigo": "CLA-004-01-003",
+                            "nome": "Intervalos e Descansos",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Convenções legais e acordadas"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "codigo": "CAP-005",
+            "titulo": "CUMPRIMENTO E DISPOSIÇÕES FINAIS",
+            "descricao": "Multas, fiscalização, divergências, prorrogação",
+            "secoes": [
+                {
+                    "codigo": "SEC-005-01",
+                    "titulo": "Regras Gerais",
+                    "clausulas": [
+                        {
+                            "codigo": "CLA-005-01-001",
+                            "nome": "Cumprimento da Convenção",
+                            "tipo": "OBRIGATÓRIA",
+                            "descricao": "Obrigação de aplicar o combinado"
+                        },
+                        {
+                            "codigo": "CLA-005-01-002",
+                            "nome": "Multas por Descumprimento",
+                            "tipo": "PROCESSUAL",
+                            "descricao": "Valor e destino das multas"
+                        },
+                        {
+                            "codigo": "CLA-005-01-003",
+                            "nome": "Solução de Conflitos",
+                            "tipo": "PROCESSUAL",
+                            "descricao": "Mediação, arbitragem ou justiça do trabalho"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
