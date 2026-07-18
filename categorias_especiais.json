@@ -1,0 +1,62 @@
+{
+  "categorias_profissionais_especiais": [
+    {
+      "categoria": "Operadores de Telemarketing e Teleatendimento",
+      "base_legal": "CLT, Art. 227 e Anexo II da NR-17",
+      "familias_cbo": ["4223"],
+      "gatilhos_alerta": {
+        "jornada_maxima_diaria_horas": 6,
+        "jornada_maxima_semanal_horas": 36,
+        "intervalos_obrigatorios_minutos": [10, 10, 20],
+        "adicionais_obrigatorios": []
+      },
+      "sindicato_alvo_palavras_chave": ["SINTETEL", "SINTRATEL", "TELEMARKETING", "TELECOMUNICACOES"]
+    },
+    {
+      "categoria": "Motoristas Profissionais de Carga e Passageiros",
+      "base_legal": "Lei nº 13.103/2015 (Lei do Motorista)",
+      "familias_cbo": ["7823", "7824", "7825"],
+      "gatilhos_alerta": {
+        "jornada_maxima_diaria_horas": 8,
+        "limite_direcao_continua_horas": 5.5,
+        "exame_toxicologico_obrigatorio": true,
+        "tempo_espera_indenizado": true
+      },
+      "sindicato_alvo_palavras_chave": ["CONDUTORES", "MOTORISTAS", "RODOVIARIOS", "TRANSPORTE DE CARGA"]
+    },
+    {
+      "categoria": "Profissionais de Enfermagem e Auxiliares de Saude",
+      "base_legal": "Lei nº 7.498/1986 e Lei nº 14.434/2022 (Piso da Enfermagem)",
+      "familias_cbo": ["2235", "3222", "5151"],
+      "gatilhos_alerta": {
+        "piso_nacional_vinculado": true,
+        "insalubridade_presumida": true,
+        "grau_insalubridade_provavel": "medio_a_maximo",
+        "registro_conselho_obrigatorio": "COREN"
+      },
+      "sindicato_alvo_palavras_chave": ["ENFERMAGEM", "SAUDE", "HOSPITAIS", "AUXILIARES DE ENFERMAGEM"]
+    },
+    {
+      "categoria": "Bombeiros Civis",
+      "base_legal": "Lei nº 11.901/2009",
+      "familias_cbo": ["5171-10"],
+      "gatilhos_alerta": {
+        "jornada_regime_especial": "12x36",
+        "limite_mensal_horas": 180,
+        "periculosidade_obrigatoria_percentual": 30.0,
+        "seguro_vida_obrigatorio": true
+      },
+      "sindicato_alvo_palavras_chave": ["BOMBEIROS CIVIS", "PREVENCAO E COMBATE A INCENDIO"]
+    },
+    {
+      "categoria": "Secretarias e Auxiliares de Escritorio Regulamentados",
+      "base_legal": "Lei nº 7.377/1985 (Regulamentacao da Profissao de Secretariado)",
+      "familias_cbo": ["2523", "3515"],
+      "gatilhos_alerta": {
+        "piso_diferenciado_por_titulacao": true,
+        "registro_orgao_competente": "MTE"
+      },
+      "sindicato_alvo_palavras_chave": ["SECRETARIAS", "SECRETARIOS"]
+    }
+  ]
+}
